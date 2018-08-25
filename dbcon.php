@@ -2,7 +2,7 @@
 	//database connection
 	$dbhost="localhost";
 	$dbuser="root";
-	$dbpassword="Amunje*9";
+	$dbpassword="";
 	$dbname="temp";
 	$connection=mysqli_connect($dbhost,$dbuser,$dbpassword,$dbname);
 	if(mysqli_connect_errno())
